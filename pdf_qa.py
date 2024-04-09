@@ -14,7 +14,6 @@ from transformers import AutoTokenizer
 import torch
 import os
 import re
-import OpenAI
 from langchain.prompts import PromptTemplate
 
 os.environ["OPENAI_API_KEY"] = "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"
