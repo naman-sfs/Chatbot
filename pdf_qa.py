@@ -1,20 +1,20 @@
 from langchain.document_loaders import PDFPlumberLoader
-from langchain.text_splitter import CharacterTextSplitter, TokenTextSplitter
+from langchain.text_splitter import TokenTextSplitter
 #from transformers import pipeline
-from langchain.prompts import PromptTemplate
+# from langchain.prompts import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores import Chroma
-from langchain.chains import RetrievalQA, ConversationalRetrievalChain
+from langchain.chains import ConversationalRetrievalChain
 #from langchain import HuggingFacePipeline
-from langchain.embeddings import HuggingFaceInstructEmbeddings, HuggingFaceEmbeddings
+# from langchain.embeddings import HuggingFaceInstructEmbeddings, HuggingFaceEmbeddings
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.llms import OpenAI
+# from langchain.llms import OpenAI
 from constants import *
-from transformers import AutoTokenizer
-import torch
+# from transformers import AutoTokenizer
+# import torch
 import os
-import re
-from langchain.prompts import PromptTemplate
+# import re
+# from langchain.prompts import PromptTemplate
 
 os.environ["OPENAI_API_KEY"] = "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"
 

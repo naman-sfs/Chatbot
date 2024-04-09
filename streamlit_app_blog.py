@@ -1,10 +1,10 @@
 import streamlit as st
 from pdf_qa import PdfQA
 
-from pathlib import Path
-from tempfile import NamedTemporaryFile
+# from pathlib import Path
+# from tempfile import NamedTemporaryFile
 import time
-import shutil
+# import shutil
 from constants import *
 
 import os
