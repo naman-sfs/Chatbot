@@ -16,7 +16,6 @@ import os
 # import re
 # from langchain.prompts import PromptTemplate
 
-os.environ["OPENAI_API_KEY"] = "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"
 
 class PdfQA:
     def __init__(self,config:dict = {}):
