@@ -9,7 +9,7 @@ from constants import *
 
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+
 
 # Streamlit app code
 st.set_page_config(
