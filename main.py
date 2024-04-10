@@ -11,7 +11,7 @@ app = FastAPI()
 bot = PdfQA()
 emb = EMB_OPENAI_ADA
 llm = LLM_OPENAI_GPT35
-os.environ["OPENAI_API_KEY"] = "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"
+
 
 class Question(BaseModel):
     question: str 
