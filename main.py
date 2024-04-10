@@ -11,7 +11,7 @@ app = FastAPI()
 bot = PdfQA()
 emb = EMB_OPENAI_ADA
 llm = LLM_OPENAI_GPT35
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 class Question(BaseModel):
     question: str 
@@ -53,7 +53,7 @@ async def trainModel():
         return {"msg":"Model Trained Successfully!!!"}
     
     except:
-        return {"msg":"Internal Server Error!!!","test":s}
+        return {"msg":"Internal Server Error!!!"}
         
 @app.get('/api/ask')
 async def askQuery(question:Question):
